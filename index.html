@@ -1,56 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Pessoaç</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    
+    device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+body {
+
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #000;
+}
+canvas {
+
+    border: 1px solid #fff;
+}
+
+
+</style>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-
-    </header>
-
-    <section id="hero">
-        <h1>Ola meu nome é joao eggers</h1>
-        <p>Desenvolvedor Front-End em aprendizado</p>
-    </section>
-
-    <section id="sobre">
-        <h2>Projetos</h2>
-        <div class="projetos">
-            <h3>Projeto 1</h3>
-            <p>Descrição do projeto 1.</p>
-        </div>
-        <div class="projeto">
-            <h3>Projeto 2</h3>
-            <p>Descriçao do projeto 2</p>
-        </div>
-    </section>
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Voce pode me encontrar nas seguintes plataformas:</p>
-        <ul>
-            <li><a href="" target="https://github.com/yuspect"></a>Github</li>
-            <li><a href="" target="https://linkedin.com/in/gabrel"></a>Linked</li>
-            <li><a href="" target="makufkagabrielsigma@gmail.com"></a>Email</li>
-
-
-        </ul>
-    </section>
-    <footer>
-        <p>&copy; 2024 Gabriel. Todos os direitos reservados</p>
-    </footer>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+   <script src="snake.js"></script>
 
 </body>
-
 </html>
